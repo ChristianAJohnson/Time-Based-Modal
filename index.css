@@ -1,0 +1,76 @@
+.wrapper{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	display: grid;
+	grid-auto-rows: 100px; 
+}
+
+.header{
+	grid-column-start:1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.header > h1{
+	text-decoration: underline; 
+	text-align: center;
+	text-decoration-color: red;
+	text
+}
+
+.navbar{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 7;
+	/*border: 2px solid yellow;*/
+	}
+
+.navbarpics1{
+	background-image: url(images/musicicon.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	height: 90px;
+	/*border: 2px solid red;*/
+	position: relative;
+}
+
+.navbarpics2{
+	background-image: url(images/musicicon2.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	height: 90px;
+	/*border: 2px solid green;*/
+	position: relative;
+}
+
+
+
+.content{
+	grid-column-start: 2;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 7;
+	/*border: 2px solid black;*/
+}
+
+.warning{
+	background-image: url(https://www.fbi.gov/image-repository/fbi-seal.jpg/@@images/ebd53701-8a4e-4e82-a36f-e0e853ae8512.jpeg);
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	height: 300px;
+	border: 2px solid red;
+	text-decoration: none;
+}
+
+.warning{
+	display: none;
+}
+
+
+
+
+
+
+
+
